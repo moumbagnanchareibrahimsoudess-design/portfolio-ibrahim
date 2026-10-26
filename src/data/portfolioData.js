@@ -21,7 +21,9 @@ export const portfolioData = {
     email: "ibrahimsoudess7@gmail.com",
     github: "https://github.com/Ibrah656im",
     credly: "https://www.credly.com/users/moumbagna-nchare-ibrahim-soudess/badges",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/moumbagna-nchare-ibrahim-soudess-85072a390",
+    fiverr: "https://fr.fiverr.com/ibrahimsoudes1",
+    facebook: "https://www.facebook.com/ibrahim.soudess.ibrahim.soudess",
     availableFor: {
       fr: "Stages, Alternances, Projets Innovants & Collaborations",
       en: "Internships, Apprenticeships, Innovative Projects & Collaborations"

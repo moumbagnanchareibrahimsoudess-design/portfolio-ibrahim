@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Award, Send, Check, Copy, MessageSquare, Sparkles, Phone, MapPin, GraduationCap } from 'lucide-react';
 import GithubIcon from './icons/GithubIcon';
+import { LinkedinIcon, FacebookIcon, FiverrIcon } from './icons/SocialIcons';
 import confetti from 'canvas-confetti';
 import { portfolioData } from '../data/portfolioData';
 
@@ -170,10 +171,49 @@ export default function Contact({ lang }) {
                 </a>
 
                 <a
+                  href={portfolioData.personal.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 text-xs font-semibold border border-white/5 transition-all group"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <LinkedinIcon className="w-4 h-4 text-blue-400" />
+                    <span>LinkedIn</span>
+                  </span>
+                  <span className="text-slate-500 group-hover:text-blue-400 font-mono">→</span>
+                </a>
+
+                <a
+                  href={portfolioData.personal.fiverr}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 text-xs font-semibold border border-white/5 transition-all group"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <FiverrIcon className="w-4 h-4" />
+                    <span>Fiverr (Profil Freelance)</span>
+                  </span>
+                  <span className="text-slate-500 group-hover:text-emerald-400 font-mono">→</span>
+                </a>
+
+                <a
+                  href={portfolioData.personal.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 text-xs font-semibold border border-white/5 transition-all group"
+                >
+                  <span className="flex items-center gap-2.5">
+                    <FacebookIcon className="w-4 h-4 text-blue-500" />
+                    <span>Facebook</span>
+                  </span>
+                  <span className="text-slate-500 group-hover:text-blue-400 font-mono">→</span>
+                </a>
+
+                <a
                   href={portfolioData.personal.credly}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between p-3.5 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 text-xs font-semibold border border-white/5 transition-all group"
+                  className="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-white/10 text-slate-200 text-xs font-semibold border border-white/5 transition-all group"
                 >
                   <span className="flex items-center gap-2.5">
                     <Award className="w-4 h-4 text-cyan-400" />
