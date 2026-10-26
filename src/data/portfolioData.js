@@ -24,6 +24,8 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/moumbagna-nchare-ibrahim-soudess-85072a390",
     fiverr: "https://fr.fiverr.com/ibrahimsoudes1",
     facebook: "https://www.facebook.com/ibrahim.soudess.ibrahim.soudess",
+    x: "https://x.com/MSoudess98608",
+    instagram: "https://www.instagram.com/ibrahimsoudess/",
     availableFor: {
       fr: "Stages, Alternances, Projets Innovants & Collaborations",
       en: "Internships, Apprenticeships, Innovative Projects & Collaborations"
