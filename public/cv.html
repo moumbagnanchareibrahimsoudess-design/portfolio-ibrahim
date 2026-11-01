@@ -185,14 +185,14 @@
 
     /* Main Content Column */
     .main-content {
-      padding: 32px 28px 28px 28px;
+      padding: 24px 26px 20px 26px;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 13px;
     }
 
     .header-name {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 800;
       letter-spacing: -0.5px;
       color: #0f172a;
@@ -200,22 +200,22 @@
       text-transform: uppercase;
     }
     .header-title {
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 700;
       color: #059669;
-      margin-top: 4px;
+      margin-top: 3px;
       letter-spacing: 0.2px;
     }
     .header-summary {
-      font-size: 11px;
+      font-size: 10.5px;
       color: #475569;
-      margin-top: 8px;
-      line-height: 1.5;
+      margin-top: 6px;
+      line-height: 1.42;
       text-align: justify;
     }
 
     .section-title {
-      font-size: 12.5px;
+      font-size: 12px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -223,23 +223,23 @@
       display: flex;
       align-items: center;
       gap: 8px;
-      margin-bottom: 10px;
-      padding-bottom: 4px;
+      margin-bottom: 7px;
+      padding-bottom: 3px;
       border-bottom: 2px solid #e2e8f0;
     }
     .section-title::before {
       content: "";
       width: 6px;
-      height: 14px;
+      height: 13px;
       background: #059669;
       border-radius: 2px;
     }
 
     .project-card {
-      margin-bottom: 12px;
+      margin-bottom: 7px;
       background: #f8fafc;
-      padding: 10px 12px;
-      border-radius: 8px;
+      padding: 7px 10px;
+      border-radius: 6px;
       border: 1px solid #e2e8f0;
     }
     .project-header {
@@ -248,30 +248,30 @@
       align-items: baseline;
     }
     .project-title {
-      font-size: 12px;
+      font-size: 11.5px;
       font-weight: 700;
       color: #0f172a;
     }
     .project-tag {
-      font-size: 9.5px;
+      font-size: 9px;
       font-family: 'JetBrains Mono', monospace;
       color: #059669;
       font-weight: 600;
     }
     .project-desc {
-      font-size: 10.5px;
+      font-size: 10px;
       color: #475569;
-      margin-top: 4px;
-      line-height: 1.4;
+      margin-top: 3px;
+      line-height: 1.35;
     }
     .project-security {
-      font-size: 10px;
+      font-size: 9.5px;
       background: #ecfdf5;
       color: #065f46;
       border: 1px solid #a7f3d0;
-      padding: 3px 8px;
+      padding: 2px 6px;
       border-radius: 4px;
-      margin-top: 6px;
+      margin-top: 4px;
       font-family: 'JetBrains Mono', monospace;
     }
 
@@ -428,15 +428,15 @@
       <div>
         <h3>Arsenal Technique</h3>
         <div>
+          <span class="skill-badge">FastAPI (Python)</span>
+          <span class="skill-badge">Next.js / React</span>
           <span class="skill-badge">PHP 8 (PDO/MySQLi)</span>
-          <span class="skill-badge">MySQL / MariaDB</span>
-          <span class="skill-badge">Tailwind CSS</span>
-          <span class="skill-badge">Python 3</span>
+          <span class="skill-badge">PostgreSQL & MySQL</span>
+          <span class="skill-badge">Supabase / Neon</span>
+          <span class="skill-badge">Threat Intelligence</span>
           <span class="skill-badge">Défense CSRF/SQLi/XSS</span>
           <span class="skill-badge">Cisco Packet Tracer</span>
           <span class="skill-badge">Prompting LLM / GenAI</span>
-          <span class="skill-badge">Génération QR Code</span>
-          <span class="skill-badge">JavaScript (ES6+)</span>
           <span class="skill-badge">Git & GitHub</span>
         </div>
       </div>
@@ -494,6 +494,20 @@
       <!-- Projets Majeurs -->
       <section>
         <h3 class="section-title">Réalisations & Projets Systèmes</h3>
+
+        <!-- SecureLink (Projet Phare Cybersécurité) -->
+        <div class="project-card" style="border-left: 3px solid #059669;">
+          <div class="project-header">
+            <span class="project-title">SecureLink — Détection de Fraude & Analyse Préventive (En Ligne)</span>
+            <span class="project-tag">FastAPI • Next.js • Supabase • Vercel</span>
+          </div>
+          <p class="project-desc">
+            Plateforme de cybersécurité opérationnelle dédiée à l'analyse de liens et messages suspects (« Pas de preuve, pas de certitude »). Pipeline multi-moteurs (Message, URL, Relation, Risk, Explanation) corrélant anomalies techniques et signaux comportementaux avec flux de réputation (VirusTotal, URLhaus).
+          </p>
+          <div class="project-security">
+            🛡️ Sécurité : Moteur heuristique, détection lookalike/homoglyphes, scoring pondéré multi-critères. Live : securelink-91z9j96rh-secure-link.vercel.app
+          </div>
+        </div>
 
         <!-- Tekrin -->
         <div class="project-card">

@@ -33,7 +33,7 @@ export const portfolioData = {
   },
 
   stats: [
-    { label: { fr: "Projets Systèmes Conçus", en: "Engineered Systems" }, value: "4+" },
+    { label: { fr: "Projets Systèmes Conçus", en: "Engineered Systems" }, value: "5+" },
     { label: { fr: "Certifications Officielles", en: "Official Certifications" }, value: "6" },
     { label: { fr: "Badges Cisco & IBM", en: "Cisco & IBM Badges" }, value: "100%" },
     { label: { fr: "Sécurité & Robustesse", en: "Security-First Focus" }, value: "A+" }
@@ -139,6 +139,32 @@ export const portfolioData = {
   ],
 
   projects: [
+    {
+      id: "securelink",
+      title: "SecureLink",
+      subtitle: {
+        fr: "Moteur d'analyse préventive & détection de fraudes et phishing multi-signaux",
+        en: "Multi-signal scam & phishing detection engine with evidence-based risk scoring"
+      },
+      category: "security",
+      featured: true,
+      badge: "Projet Phare Cybersécurité (En Ligne)",
+      description: {
+        fr: "Plateforme de cybersécurité opérationnelle conçue selon le principe 'Pas de preuve, pas de certitude'. SecureLink analyse les messages et liens suspects grâce à un pipeline multi-moteurs (Message, URL, Relation, Risk, Explanation). Il croise les anomalies techniques (domaines lookalike, ports atypiques, adresses IP directes) avec des indicateurs comportementaux (pression temporelle, demandes d'argent, vol d'identifiants/OTP) et interroge des flux de threat intelligence externes (VirusTotal, URLhaus) pour délivrer une explication transparente et une action prudente recommandée.",
+        en: "Operational cybersecurity platform built on the doctrine 'No proof, no certainty'. SecureLink analyzes suspicious messages and URLs through an advanced multi-engine pipeline (Message, URL, Relation, Risk, Explanation). It correlates technical anomalies (lookalike domains, non-standard ports, direct IPs) with behavioral indicators (urgency pressure, monetary requests, credential/OTP theft) and cross-references external threat feeds (VirusTotal, URLhaus) to provide transparent explanations and safe recommendations."
+      },
+      highlights: [
+        "Architecture multi-moteurs indépendante (Message, URL, Relation, Risk, Explanation)",
+        "Calcul de score de risque pondéré (0-100) par corrélation de signaux multiples",
+        "Enrichissement externe en temps réel via APIs de réputation (VirusTotal, URLhaus)",
+        "Interface Analysis Space unifiée sous Next.js connectée à FastAPI et PostgreSQL/Supabase"
+      ],
+      technologies: ["FastAPI (Python)", "Next.js 16 (React 19)", "Tailwind CSS v4", "Supabase / PostgreSQL", "VirusTotal API", "URLhaus API"],
+      github: "https://github.com/moumbagnanchareibrahimsoudess-design",
+      demo: "https://securelink-91z9j96rh-secure-link.vercel.app/analyse",
+      type: "Plateforme Cybersécurité SaaS",
+      securityFeatures: "Moteurs heuristiques, détection homoglyphes/lookalike, scoring pondéré multi-critères, explications transparentes sans faux verdicts"
+    },
     {
       id: "tekrin",
       title: "Tekrin",
