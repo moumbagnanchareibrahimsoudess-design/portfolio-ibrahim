@@ -267,32 +267,6 @@ export const portfolioData = {
       demo: "#",
       type: "Site Vitrine",
       securityFeatures: "Bonnes pratiques de structure HTML5 et validation de formulaires"
-    },
-    {
-      id: "cyber-ai-lab",
-      title: "Cyber & AI Innovation Lab",
-      subtitle: {
-        fr: "Laboratoire R&D : expérimentations en sécurité défensive, pentest & agents IA",
-        en: "R&D Lab: defensive security experiments, pentesting labs & AI agents"
-      },
-      category: "rd",
-      featured: true,
-      badge: "R&D & Expérimentations",
-      description: {
-        fr: "Espace expérimental regroupant mes scripts Python d'automatisation, simulations d'analyse réseau (Cisco Packet Tracer), veille sur les vulnérabilités CVE et conception de prompts avancés pour agents IA.",
-        en: "Experimental workshop gathering Python automation scripts, Cisco Packet Tracer network security simulations, CVE vulnerability research, and advanced LLM agent prompting frameworks."
-      },
-      highlights: [
-        "Scripts Python d'analyse et de traitement de données réseau",
-        "Simulations de topologies sécurisées sous Cisco Packet Tracer",
-        "Exploration de modèles d'IA générative (IBM Granite, LLMs open-source)",
-        "Veille proactive en cybersécurité et analyse de vecteurs d'attaque"
-      ],
-      technologies: ["Python 3", "Cisco Packet Tracer", "Generative AI", "Linux / Bash", "Wireshark"],
-      github: "https://github.com/Ibrah656im",
-      demo: "#",
-      type: "Projet de Recherche & Pratique",
-      securityFeatures: "Analyse de menaces, principes de moindre privilège, chiffrement"
     }
   ],
 

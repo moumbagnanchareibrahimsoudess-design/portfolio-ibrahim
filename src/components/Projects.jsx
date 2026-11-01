@@ -9,11 +9,11 @@ export default function Projects({ lang }) {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const filterTabs = [
-    { id: 'all', label: { fr: 'Tous les Systèmes', en: 'All Systems' } },
+    { id: 'all', label: { fr: 'Tous les Projets', en: 'All Projects' } },
+    { id: 'security', label: { fr: 'Cybersécurité & Threat Intel', en: 'Cybersecurity & Threat Intel' } },
     { id: 'startup', label: { fr: 'Plateforme Web & Startup', en: 'Platform & Startup' } },
-    { id: 'security', label: { fr: 'Cybersécurité & ITSM', en: 'Cybersecurity & ITSM' } },
-    { id: 'logistics', label: { fr: 'Logistique & QR Code', en: 'Logistics & QR' } },
-    { id: 'rd', label: { fr: 'R&D / Lab', en: 'R&D / Lab' } }
+    { id: 'logistics', label: { fr: 'Logistique & Traçabilité', en: 'Logistics & Tracking' } },
+    { id: 'web', label: { fr: 'Sites Vitrines', en: 'Web Showcases' } }
   ];
 
   const filteredProjects = activeFilter === 'all'

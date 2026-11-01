@@ -63,8 +63,8 @@ export default function Terminal({ lang }) {
         newHistory.push({
           type: 'output',
           text: lang === 'fr'
-            ? "Arsenal Technique :\n  • Sécurité : CSRF, Requêtes préparées SQLi, XSS, Audit Logs, Packet Tracer\n  • IA & Data : LLMs, Prompt Engineering, Python, IBM Granite, AI Ethics\n  • Backend : PHP 8, MySQL/MariaDB, PDO, Architecture MVC, QR Code\n  • Frontend : Tailwind CSS, JavaScript ES6+, HTML5, React"
-            : "Technical Arsenal:\n  • Security: CSRF mitigation, Prepared SQL queries, XSS sanitization, Audit Logs, Packet Tracer\n  • AI & Data: LLMs, Prompt Engineering, Python, IBM Granite, AI Ethics\n  • Backend: PHP 8, MySQL/MariaDB, PDO, MVC Architecture, QR Code Engine\n  • Frontend: Tailwind CSS, JavaScript ES6+, HTML5, React"
+            ? "Arsenal Technique :\n  • Sécurité : Threat Intelligence (VirusTotal, URLhaus), CSRF, Requêtes préparées SQLi, XSS, Audit Logs, Packet Tracer\n  • IA & Data : LLMs, Prompt Engineering, Python, IBM Granite, AI Ethics\n  • Backend & Cloud : FastAPI (Python), Next.js, Supabase, PostgreSQL, PHP 8 (PDO), MySQL\n  • Frontend : React, Tailwind CSS, JavaScript ES6+, HTML5"
+            : "Technical Arsenal:\n  • Security: Threat Intelligence (VirusTotal, URLhaus), CSRF mitigation, Prepared SQL, XSS, Audit Logs, Packet Tracer\n  • AI & Data: LLMs, Prompt Engineering, Python, IBM Granite, AI Ethics\n  • Backend & Cloud: FastAPI (Python), Next.js, Supabase, PostgreSQL, PHP 8 (PDO), MySQL\n  • Frontend: React, Tailwind CSS, JavaScript ES6+, HTML5"
         });
         break;
 
