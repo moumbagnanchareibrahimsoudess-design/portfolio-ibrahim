@@ -165,7 +165,7 @@ export default function Contact({ lang }) {
                 >
                   <span className="flex items-center gap-2.5">
                     <GithubIcon className="w-4 h-4 text-white" />
-                    <span>GitHub (@Ibrah656im)</span>
+                    <span>GitHub (@moumbagnanchareibrahimsoudess-design)</span>
                   </span>
                   <span className="text-slate-500 group-hover:text-emerald-400 font-mono">→</span>
                 </a>
